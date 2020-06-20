@@ -18,7 +18,6 @@ namespace DesignPatterns
         private static Person _john;
         public static Person GetJohn()
         {
-            //C# equivalent of the elvis operator ?:
             return _john ?? (_john = new Person("1", "John"));
         }
 
